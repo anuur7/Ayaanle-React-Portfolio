@@ -1,0 +1,20 @@
+.header{
+    background-color: rgb(27, 63, 110);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+ }
+ 
+ .header h1 a{
+    color: white;
+    margin-left: 10px;
+    text-shadow: 5px 3px black;
+ }
+ 
+ .header a{
+    text-decoration: none;
+ }
+ 
+ .header a:hover{
+    color: orange;
+ }
