@@ -4,7 +4,7 @@ import React from 'react'
 const Nav = () => {
     return (
         <div>
-            <nav class="nav">
+            <nav className="nav">
             <ul>
                 <li> <a href="#about">About</a></li>
                 <li> <a href="#projects">Projects</a></li>
