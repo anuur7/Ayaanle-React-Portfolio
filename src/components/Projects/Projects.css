@@ -1,0 +1,63 @@
+.projects{
+    background-color: lightgray;
+ }
+
+ .sub-projects h2{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px gray;
+ }
+
+ .cards-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-top: 5vh;
+   padding-bottom: 5vh;
+   width: 94%;
+}
+
+.card{
+   border: 2px solid lightgrey;
+}
+
+.card h3{
+   font-size: 30px;
+   text-shadow: 2px 2px gray;
+   text-align: center;
+   margin-bottom: 2vh;
+}
+
+h4{
+   text-align: center;
+   margin-bottom: 10px;
+   font-size: 17px;
+   font-weight: 700;
+}
+
+h4 a{
+   text-decoration: none;
+   color: black;
+}
+
+h4 a:hover{
+   color: orange;
+}
+
+.link-image img{  
+   width: 510px;
+   margin-bottom: 3vh;
+}
+
+.link-image img:hover{
+   transform: scale(1.1);
+}
+
+.link-image2 img{  
+   width: 500px;
+   height: 280px;
+}
+
+.link-image2 img:hover{
+   transform: scale(1.1);
+}
