@@ -19,7 +19,7 @@ function App() {
         < AboutMe/>
       </main>
 
-      <section id="projects" class="projects">
+      <section id="projects" className="projects">
         < Projects/>
       </section>
     </div>
