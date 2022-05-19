@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Projects from "./components/Projects/Projects";
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
       <section>
         <Projects />
       </section>
+
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
