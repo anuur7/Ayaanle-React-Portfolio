@@ -8,8 +8,8 @@ const Cards = (props) => {
         {props.cards.map((card) => (
           <li className="card" key={card.id}>
             {card.title}
-            {card.image}
             {card.github}
+            {card.image}
           </li>
         ))}
       </ul>

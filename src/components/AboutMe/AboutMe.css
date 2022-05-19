@@ -26,6 +26,7 @@
     margin: -3vw 14vh 0vh 0vh;
     box-shadow: 7px 5px black;
     transform: rotate(5deg);
+    cursor: pointer;
  }
  
  .graduation img:hover{

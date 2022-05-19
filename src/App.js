@@ -1,26 +1,26 @@
 import "./App.css";
 import Header from "./components/Header/Header";
-import Intro from './components/Intro/Intro'
-import AboutMe from './components/AboutMe/AboutMe'
-import Projects from './components/Projects/Projects'
+import Intro from "./components/Intro/Intro";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
     <div>
-      <header className="header">
-        <Header/>
+      <header>
+        <Header />
       </header>
 
-      <section className="picture-intro">
-        <Intro/>
+      <section>
+        <Intro />
       </section>
 
-      <main id="about" className="about">
-        < AboutMe/>
+      <main>
+        <AboutMe />
       </main>
 
-      <section id="projects" className="projects">
-        < Projects/>
+      <section>
+        <Projects />
       </section>
     </div>
   );

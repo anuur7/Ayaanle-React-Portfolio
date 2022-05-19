@@ -4,7 +4,7 @@ import Nav from '../Navbar/Nav'
 
 const Header = () => {
   return(
-      <div>
+      <div className="header">
           <h1>
             <a href="">My Portfolio</a> 
         </h1>

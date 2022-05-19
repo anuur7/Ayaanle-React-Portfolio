@@ -12,6 +12,8 @@
  
  .my-picture:hover{
     transform: scale(1.4);
+    cursor: pointer;
+    margin-left: -20px;
  }
  
  .intro h1 {
