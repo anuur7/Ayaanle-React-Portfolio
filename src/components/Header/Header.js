@@ -6,9 +6,9 @@ const Header = () => {
   return(
       <div className="header">
           <h1>
-            <a href="">My Portfolio</a> 
+            <a href="/">My Portfolio</a> 
         </h1>
-        <Nav />
+        <Nav/>
         
       </div>
   )

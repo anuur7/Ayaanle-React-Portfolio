@@ -1,9 +1,13 @@
 .about{
-    padding: 3vh 0vh 3vh 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: lightgray;
  }
  
  .about-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
  }
  
@@ -22,8 +26,10 @@
  }
  
  .graduation img{
-    width: 300px;
-    margin: -3vw 14vh 0vh 0vh;
+    width: 250px;
+    margin-left: 600px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     box-shadow: 7px 5px black;
     transform: rotate(5deg);
     cursor: pointer;
