@@ -1,7 +1,6 @@
 # My-React-Portfolio
 
-This is my REACT portfolio page. It includes an about me section, a portfolio section with projects i have done 
-and a contact me section with links to my CV, LinkedIn, Github and my email address.
+This is my REACT portfolio page. It includes rendered pages for an about me section, a portfolio section, a contact me section and a link to my CV. Also i have links to my LinkedIn and Github in my footer.
 
 ### Screenshot 
 
