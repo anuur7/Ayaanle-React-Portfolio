@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
@@ -14,12 +14,11 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<App />} />
-          <Route index element={<Intro />} />
-          <Route path="about" element={<AboutMe />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="form" element={<Form />} />
-          <Route path="ayaanle-react-portfolio" element={<Intro />} />
+            <Route path="/" element={<Intro />} />
+            <Route path="about" element={<AboutMe />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="form" element={<Form />} />
+            <Route path="ayaanle-react-portfolio" element={<Intro />} />
         </Routes>
         <Footer />
       </Router>
