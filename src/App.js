@@ -14,11 +14,12 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Intro />} />
-          <Route path="/about" element={<AboutMe />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/form" element={<Form />} />
-          <Route path="/ayaanle-react-portfolio" element={<Intro />} />
+          <Route path="/" element={<App />} />
+          <Route index element={<Intro />} />
+          <Route path="about" element={<AboutMe />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="form" element={<Form />} />
+          <Route path="ayaanle-react-portfolio" element={<Intro />} />
         </Routes>
         <Footer />
       </Router>
