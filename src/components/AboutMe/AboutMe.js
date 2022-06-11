@@ -1,5 +1,6 @@
 import "./AboutMe.css";
 import React from "react";
+import Graduation from '../../images/graduation.jpeg'
 
 const AboutMe = () => {
   return (
@@ -30,7 +31,7 @@ const AboutMe = () => {
         </div>
         <div className="graduation">
           <img
-            src="images/graduation.jpeg"
+            src={Graduation}
             alt="me shaking hands with Lenny Henry"
           />
         </div>

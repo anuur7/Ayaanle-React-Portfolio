@@ -3,3 +3,251 @@
     padding: 0;
     box-sizing: border-box;
  }
+
+ @media screen and (max-width: 980px) {
+   .sub-about h2{
+      font-size: 40px;
+      text-align: left;
+   }
+   .about-bio p{
+      text-align: center;
+      padding: 0px 50px 20px 50px;
+   }
+   .graduation img{
+      width: 220px;
+      margin: 2vh 5vh 0vh 0vh;
+   }
+   .sub-projects h2{
+      font-size: 40px;
+   }
+   .link-image img{
+      width: 350px;
+   }
+
+   .link-image2 img{
+      width: 350px;
+      height: 193px;
+   }
+ }
+ 
+ @media screen and (max-width: 700px) {
+    .header h1{
+      font-size: 30px;
+    }
+    .nav li{
+       font-size: 22px;
+    }
+    .my-picture{
+       width: 170px;
+    }
+   .intro h1{
+     font-size: 40px;
+   }
+   .intro h2{
+      font-size: 20px;
+   }
+   .sub-about h2{
+      font-size: 35px;
+      margin-left: 27vw;
+   }
+   .about-bio p{
+      font-size: 15px;
+      text-align: center;
+      padding: 0px 50px 0px 50px;
+   }
+   .graduation img{
+      width: 200px;
+      margin: 5vh 5vh 0vh 0vh;
+   }
+   .sub-projects h2{
+      font-size: 35px;
+   }
+   .card h3{
+      font-size: 25px;
+   }
+   .link-image img{
+      width: 290px;
+   }
+
+   .link-image2 img{
+      width: 290px;
+      height: 160px;
+   }
+   .contact-card h2{
+      font-size: 30px;
+   }
+   .email li{
+      font-size: 11px;
+   }
+   .icons-card h2{
+      font-size: 30px;
+   }
+   
+   .icons-card a{
+      font-size: 25px;
+   }
+ }
+
+ @media screen and (max-width: 550px){
+    .header{
+       margin-right: -20px;
+    }
+    .picture-intro{
+       margin-right: -20px;
+    }
+    .my-picture{
+      width: 150px;
+   }
+   .intro h1{
+      font-size: 35px;
+    }
+    .intro h2{
+       font-size: 17px;
+    }
+    .sub-about h2{
+      font-size: 30px;
+      margin-left: 27vw;
+   }
+   .about-bio p{
+      font-size: 12px;
+      text-align: center;
+      padding: 0px 5px 0px 5px;
+   }
+   .graduation img{
+      width: 130px;
+      margin: 3vh 2vh 0vh 0vh;
+   }
+   .projects{
+      margin-right: -20px;
+   }
+   .sub-projects h2{
+      font-size: 30px;
+   }
+   .card h3{
+      font-size: 20px;
+   }
+   .link-image img{
+      width: 240px;
+   }
+
+   .link-image2 img{
+      width: 240px;
+      height: 133px;
+   }
+   footer{
+      margin-right: -20px;
+   }
+   .contact-card h2{
+      font-size: 30px;
+   }
+   .email li{
+      font-size: 11px;
+   }
+   .icons-card h2{
+      font-size: 30px;
+   }
+   
+   .icons-card a{
+      font-size: 25px;
+   }
+ }
+
+ @media screen and (max-width: 375px) {
+   .header h1{
+     font-size: 18px;
+   }
+   .header h1 a{
+      text-shadow: 2px 3px var(--black);
+   }
+   .nav ul{
+      margin-top: -20px;
+      margin-right: 3vh;
+   }
+   .nav li{
+      font-size: 13px;
+      margin-top: 5vh;
+      text-shadow: 2.5px 2.5px var(--black);
+   }
+   .my-picture{
+      width: 110px;
+   }
+  .intro h1{
+    font-size: 20px;
+    margin-right: 6vw;
+    text-shadow: 2px 2.5px var(--black);
+  }
+  .intro h2{
+     font-size: 10px;
+     margin-right: 6vw;
+     text-shadow: 2px 2.5px var(--black);
+  }
+  .sub-about h2{
+     font-size: 25px;
+     margin-left: 35vw;
+     margin-top: -2vh;
+     text-shadow: 1px 1.3px var(--gray);
+  }
+  .about-container{
+   display: flex;
+   flex-direction: column;
+  }
+  .about-bio p{
+     font-size: 12px;
+     text-align: center;
+     padding: 0px 30px 0px 50px;
+     margin-left: -7vw;
+  }
+  .graduation img{
+     width: 150px;
+     margin-left: 28vw;
+  }
+  .sub-projects h2{
+     font-size: 25px;
+     text-shadow: 1px 1.3px var(--gray);
+  }
+  .cards-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 0px 20px 20px 75px;
+     margin-top: 30px;
+  }
+  .card h3{
+     font-size: 15px;
+     margin-left: -70px;
+     text-shadow: 1px 1.5px var(--gray);
+  }
+  .link-image img{
+     width: 220px;
+  }
+
+  .link-image2 img{
+     width: 220px;
+     height: 150px;
+  }
+  footer{
+     padding-top: 25px;
+  }
+  .contact-card{
+     margin-top: 4vh;
+  }
+  .contact-card h2{
+     font-size: 21px;
+     text-shadow: 3px 3px var(--black);
+  }
+  .email li{
+     font-size: 9px;
+  }
+  .icons-card{
+   margin-top: 4vh;
+}
+  .icons-card h2{
+     font-size: 21px;
+     text-shadow: 3px 3px var(--black);
+  }
+  
+  .icons-card a{
+     font-size: 20px;
+     margin-left: 14px;
+  }
+}
