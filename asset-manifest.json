@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ayaanle-react-portfolio/static/css/main.8cf6485a.css",
-    "main.js": "/ayaanle-react-portfolio/static/js/main.99b5c35d.js",
+    "main.js": "/ayaanle-react-portfolio/static/js/main.8c17f48a.js",
     "static/media/horiseon.png": "/ayaanle-react-portfolio/static/media/horiseon.e75d185235198b9aba09.png",
     "static/media/weatherapp.png": "/ayaanle-react-portfolio/static/media/weatherapp.4ab1bd43dcc9c65671db.png",
     "static/media/project2.png": "/ayaanle-react-portfolio/static/media/project2.15c328e25dc104674fb3.png",
@@ -14,10 +14,10 @@
     "static/media/May2022CV.pdf": "/ayaanle-react-portfolio/static/media/May2022CV.6095a1d8d9129e2d7ace.pdf",
     "index.html": "/ayaanle-react-portfolio/index.html",
     "main.8cf6485a.css.map": "/ayaanle-react-portfolio/static/css/main.8cf6485a.css.map",
-    "main.99b5c35d.js.map": "/ayaanle-react-portfolio/static/js/main.99b5c35d.js.map"
+    "main.8c17f48a.js.map": "/ayaanle-react-portfolio/static/js/main.8c17f48a.js.map"
   },
   "entrypoints": [
     "static/css/main.8cf6485a.css",
-    "static/js/main.99b5c35d.js"
+    "static/js/main.8c17f48a.js"
   ]
 }
