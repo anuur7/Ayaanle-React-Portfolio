@@ -1,6 +1,7 @@
 import './Header.css'
 import React from "react";
 import Nav from '../Navbar/Nav'
+import Smile from '../../images/smile.jpg'
 
 const Header = () => {
   return(
@@ -9,7 +10,6 @@ const Header = () => {
             <a href="/">My Portfolio</a> 
         </h1>
         <Nav/>
-        
       </div>
   )
 };
