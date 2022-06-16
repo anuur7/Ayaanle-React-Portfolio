@@ -1,13 +1,13 @@
 import './Header.css'
 import React from "react";
 import Nav from '../Navbar/Nav'
-import Smile from '../../images/smile.jpg'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return(
       <div className="header">
           <h1>
-            <a href="/">My Portfolio</a> 
+            <Link to="/">My Portfolio</Link> 
         </h1>
         <Nav/>
       </div>
