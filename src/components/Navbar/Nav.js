@@ -1,6 +1,7 @@
 import './Nav.css'
 import React from 'react'
 import CV from '../../images/May2022CV.pdf'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
     return (
