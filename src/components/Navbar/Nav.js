@@ -8,10 +8,10 @@ const Nav = () => {
         <div>
             <nav className="nav">
             <ul>
-                <li> <Link href="/about">About</Link></li>
-                <li> <Link href="/projects">Projects</Link></li>
-                <li> <Link href="/form">Contact</Link></li>
-                <li> <Link target="_blank" href={CV}>CV 📄</Link></li>
+                <li> <Link to="/about">About</Link></li>
+                <li> <Link to="/projects">Projects</Link></li>
+                <li> <Link to="/form">Contact</Link></li>
+                <li> <Link target="_blank" to={CV}>CV 📄</Link></li>
             </ul>
         </nav>
         </div>
