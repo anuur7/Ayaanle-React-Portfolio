@@ -1,6 +1,6 @@
 import "./AboutMe.css";
 import React from "react";
-import Graduation from '../../images/graduation.jpeg'
+import Graduation from "../../images/graduation.jpeg";
 
 const AboutMe = () => {
   return (
@@ -9,31 +9,29 @@ const AboutMe = () => {
         <h2>About Me</h2>
       </div>
       <div className="about-container">
+        <div className="graduation">
+          <img src={Graduation} alt="me shaking hands with Lenny Henry" />
+        </div>
         <div className="about-bio">
           <p>
-            My name is Ayaanle Nur and I have a background in accounting &
-            finance. I graduated from Birmingham City University with a first
-            class degree and have since been working in that field.
+            My name is Ayaanle Nur and I am a highly motivated and passionate
+            educator with a background in Accounting and Finance. I am
+            Consistently striving for personal development, has recently
+            transitioned into tech as a Full Stack Web Developer.
           </p>
           <p>
-            After 3 years of working in finance I decided that this field was
-            not really my passion long term. I looked into coding and did a bit
-            of studying on my own on freecode camp and i quite enjoyed it hence
-            why i joined the bootcamp of University of Birmingham. Hopefully
-            once I complete this bootcamp I will be ready to start applying for
-            jobs in software development.
+            I am equipped with solid knowledge of many different back-end and
+            front-end technologies, databases and responsive frameworks after
+            completing the Full Stack Software Developer program provided by
+            University of Birmingham
           </p>
           <p>
-            In my free time i love to either watch football or play outdoors. I
-            also enjoy a quiet night in watching movies or shows with
-            a hot cuppa.
+            I have experience working with various technologies such as HTML,
+            CSS, JavaScript, Node JS, MySQL, MongoDB, Express & React. I
+            completed weekly individual projects building various frontend and
+            backend applications. Also as part of a team practicing agile
+            working.
           </p>
-        </div>
-        <div className="graduation">
-          <img
-            src={Graduation}
-            alt="me shaking hands with Lenny Henry"
-          />
         </div>
       </div>
     </div>

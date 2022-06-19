@@ -6,30 +6,29 @@
  }
  
  .about-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
- }
- 
- .sub-about h2{
-    font-size: 50px;
-    text-align: center;
-    text-shadow: 3px 3px gray;
- }
- 
- .about-bio p{
-    font-size: 17px;
-    padding: 0px 200px 0px 200px;
-    line-height: 1.3;
-    text-align: center;
-    margin-top: 3vh;
- }
- 
- .graduation img{
-    width: 250px;
-    margin-left: 600px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    box-shadow: 7px 5px black;
- }
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding-bottom: 25vh;
+   margin-top: 20px;
+}
+
+.sub-about h2{
+   font-size: 50px;
+   text-align: center;
+   text-shadow: 3px 3px gray;
+   margin-top: 15px;
+}
+
+.about-bio p{
+   font-size: 20px;
+   padding: 0px 200px 0px 100px;
+   line-height: 1.3;
+   margin-top: 3vh;
+}
+
+.graduation img{
+   width: 280px;
+   margin-left: 10vw;
+}
  
